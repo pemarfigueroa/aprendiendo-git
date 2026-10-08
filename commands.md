@@ -19,6 +19,8 @@ git clone https://github.com/usuario/repo.git
 - '--system': aplica para todos los repositorios de todos los usuarios.
 - '--local': aplica para el repositorio actual (tambien puede no llevar **FLAG**).
 
+Prioridad: local > global > system.
+
 ## git status
 
 Para validar los posibles cambios en el commit.
