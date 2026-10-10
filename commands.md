@@ -36,4 +36,8 @@ Sirve para guardar los datos en repositorio local.
 ## git push
 
 Implementa las modificacion del ultimo commit en el repositorio remoto.
+
+## git log
+
+Permite visualizar los commits realizados en el repositorio desde el mas recienta al mas antiguo.
 			
