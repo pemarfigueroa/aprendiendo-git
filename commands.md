@@ -15,9 +15,9 @@ git clone https://github.com/usuario/repo.git
 
  Sirve para poder obtener informacion o actualizar informacion de configuracion en git, por ejemplo nombre y correo 
 
-- '--global': aplica para todos los repositorios del usuario especifico.
-- '--system': aplica para todos los repositorios de todos los usuarios.
-- '--local': aplica para el repositorio actual (tambien puede no llevar **FLAG**).
+- `--global`: aplica para todos los repositorios del usuario especifico.
+- `--system`: aplica para todos los repositorios de todos los usuarios.
+- `--local`: aplica para el repositorio actual (tambien puede no llevar **FLAG**).
 
 Prioridad: local > global > system.
 
@@ -42,11 +42,11 @@ Implementa las modificacion del ultimo commit en el repositorio remoto.
 Permite visualizar los commits realizados en el repositorio desde el mas recienta al mas antiguo.
 
 **Opciones**
-- --oneline: Un commit por línea
-- -3: Solo los últimos 3 commits
-- --stat: Qué archivos cambió cada commit y cuántas líneas
-- -p: El detalle de cada cambio, línea por línea
-- -- commands.md: Solo los commits que tocaron ese archivo
-- --author="Pedro": Solo los commits de un autor
-- --since="2 weeks ago": Solo los de las últimas 2 semanas
-- --oneline --graph --all: Historial con dibujo de las ramas
+- `--oneline`: Un commit por línea
+- `-3`: Solo los últimos 3 commits
+- `--stat`: Qué archivos cambió cada commit y cuántas líneas
+- `-p`: El detalle de cada cambio, línea por línea
+- `-- commands.md`: Solo los commits que tocaron ese archivo
+- `--author="Pedro"`: Solo los commits de un autor
+- `--since="2 weeks ago"`: Solo los de las últimas 2 semanas
+- `--oneline --graph --all`: Historial con dibujo de las ramas
