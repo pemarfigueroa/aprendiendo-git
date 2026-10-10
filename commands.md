@@ -39,7 +39,7 @@ Implementa las modificacion del ultimo commit en el repositorio remoto.
 
 ## git log
 
-Permite visualizar los commits realizados en el repositorio desde el mas recienta al mas antiguo.
+Permite visualizar los commits realizados en el repositorio desde el mas reciente al mas antiguo.
 
 **Opciones**
 - `--oneline`: Un commit por línea
