@@ -42,17 +42,11 @@ Implementa las modificacion del ultimo commit en el repositorio remoto.
 Permite visualizar los commits realizados en el repositorio desde el mas recienta al mas antiguo.
 
 **Opciones**
-- '--oneline': Un commit por línea
-- '-3': Solo los últimos 3 commits
-- '--stat': Qué archivos cambió cada commit y cuántas líneas
-- '-p': El detalle de cada cambio, línea por línea
-- '-- commands.md': Solo los commits que tocaron ese archivo
-- '--author="Pedro"': Solo los commits de un autor
-- '--since="2 weeks ago"': Solo los de las últimas 2 semanas
-- '--oneline --graph --all': Historial con dibujo de las ramas
--
--
--
--
--
--
+- --oneline: Un commit por línea
+- -3: Solo los últimos 3 commits
+- --stat: Qué archivos cambió cada commit y cuántas líneas
+- -p: El detalle de cada cambio, línea por línea
+- -- commands.md: Solo los commits que tocaron ese archivo
+- --author="Pedro": Solo los commits de un autor
+- --since="2 weeks ago": Solo los de las últimas 2 semanas
+- --oneline --graph --all: Historial con dibujo de las ramas
