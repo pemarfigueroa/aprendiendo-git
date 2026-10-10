@@ -27,7 +27,7 @@ Para validar los posibles cambios en el commit.
 
 ## git add
 
-Sirve para agregar un nuevo archivo al cual se le va a realizar el commit.
+Sirve para agregar un nuevo archivo o directorio al cual se le va a realizar el commit.
 
 ## git commit
 
