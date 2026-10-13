@@ -68,3 +68,7 @@ Es para agregar etiquetas a los commits.
 	- Puede incluir autor, fecha, mensaje, el id del commit.
 	- Opcionalmente pueden ser firmadas y verificadas con GNU Privacy Guard (GPG).
 
+### uso
+`git tag <tagname> [<commit>]` Si no se especifica commit usa el por defecto que es HEAD.
+`git tag -a [-m <msg> | -F <FILE>] <tagname> [<commit>]`
+
