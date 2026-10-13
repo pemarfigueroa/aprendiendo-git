@@ -50,3 +50,7 @@ Permite visualizar los commits realizados en el repositorio desde el mas recient
 - `--author="Pedro"`: Solo los commits de un autor
 - `--since="2 weeks ago"`: Solo los de las últimas 2 semanas
 - `--oneline --graph --all`: Historial con dibujo de las ramas
+
+## git hash-object <file>
+
+Permite crear un id SHA-1 para cualquier contenido
