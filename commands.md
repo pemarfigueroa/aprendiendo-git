@@ -71,4 +71,3 @@ Es para agregar etiquetas a los commits.
 **Opciones**
 - `git tag <tagname> [<commit>]` Si no se especifica commit usa el por defecto que es HEAD.
 - `git tag -a [-m <msg> | -F <FILE>] <tagname> [<commit>]`
-
