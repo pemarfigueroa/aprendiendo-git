@@ -59,12 +59,12 @@ Permite crear un id SHA-1 para cualquier contenido.
 
 Muestra uno o varios tipos de objetos (Blobs, trees, tags y commits).
 
-## git tags
+## git tag
 
 Es para agregar etiquetas a los commits.
 
 - Liviana: es una simple referencia a un commit.
-- Anotada: Es una referecnia completa de una objeto commit.
+- Anotada: Es una referencia completa de un objeto commit.
 	- Puede incluir autor, fecha, mensaje, el id del commit.
-	- Opcionalmente pueden ser firmadas y verificadas con GNU Privacy Guard (GPG)
+	- Opcionalmente pueden ser firmadas y verificadas con GNU Privacy Guard (GPG).
 
