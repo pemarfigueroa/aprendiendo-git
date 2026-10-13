@@ -53,4 +53,10 @@ Permite visualizar los commits realizados en el repositorio desde el mas recient
 
 ## git hash-object <file>
 
-Permite crear un id SHA-1 para cualquier contenido
+Permite crear un id SHA-1 para cualquier contenido.
+
+## git show
+
+Muestra uno o varios tipos de objetos (Blobs, trees, tags y commits).
+
+
