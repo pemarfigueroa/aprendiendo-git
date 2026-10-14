@@ -70,4 +70,11 @@ Es para agregar etiquetas a los commits.
 
 **Opciones**
 - `git tag <tagname> [<commit>]` Si no se especifica commit usa el por defecto que es HEAD.
-- `git tag -a [-m <msg> | -F <FILE>] <tagname> [<commit>]`
+- `git tag -a [-m <msg> | -F <FILE>] <tagname> [<commit>]`: -m para especificar el mensaje; -F es para tomar el mensaje de un archivo; si no se especifica ninguno se abre el editor de texto seleccionado.
+
+**<ins>Nota Importante</ins>**
+
+Los tags no se suben automaticamente al Repositorio Remoto, para ello usar:
+
+- `git push <remote> <tagname>`
+- `git push <remote> --tags`
