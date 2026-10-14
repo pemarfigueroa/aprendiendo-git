@@ -77,4 +77,4 @@ Es para agregar etiquetas a los commits.
 Los tags no se suben automaticamente al Repositorio Remoto, para ello usar:
 
 - `git push <remote> <tagname>`: Sube un tag específico.
-- `git push <remote> --tags`: sube todos los tags.
+- `git push <remote> --tags`: Sube todos los tags.
