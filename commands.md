@@ -89,11 +89,11 @@ Permite crear una nueva rama a partir de donde apunta **HEAD**.
 
 ## git checkout
 
-Permite mover el HEAD a la rama que voy a utilizar, y desde ahi hacer los commits necesarios.
+Permite mover el **HEAD** a la rama que voy a utilizar, y desde ahi hacer los commits necesarios.
 
 **Opciones**
 - `git checkout -b <nombre_rama>`: realiza en un mismo paso `git branch` y `git checkout`.
-- `git checkout -b <nombre_rama> <ID_Commit>`: Se usa para recuperar el commit con el ID en la rama que se crea.
+- `git checkout -b <nombre_rama> <ID_Commit>`: Se usa para recuperar el commit con el **ID** en la rama que se crea.
 
 ## git reflog
 Lista los commits de todo el recorride de Head, nos muestra el SHA-1.
@@ -104,3 +104,4 @@ Permite fusionar el trabajo de ramas independientes.
 **Opciones**
 - `git merge <nombre_rama>`: realiza un merge Fast-Forward, para el caso que no hay commits después de la creación de la nueva rama.
 - `git merge --no-ff <nombre_rama>`: realiza un merge commit, combinando los commits en un unico commit de confimación.
+
