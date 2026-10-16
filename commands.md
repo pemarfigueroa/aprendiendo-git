@@ -83,6 +83,9 @@ Los tags no se suben automaticamente al Repositorio Remoto, para ello usar:
 
 Permite crear una nueva rama a partir de donde apunta **HEAD**.
 
+**Opciones**
+- `git branch -d <nombre_rama>`: para eliminar una rama.
+
 ## git checkout
 
 Permite mover el HEAD a la rama que voy a utilizar, y desde ahi hacer los commits necesarios.
