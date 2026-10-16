@@ -78,3 +78,14 @@ Los tags no se suben automaticamente al Repositorio Remoto, para ello usar:
 
 - `git push <remote> <tagname>`: Sube un tag específico.
 - `git push <remote> --tags`: Sube todos los tags.
+
+## git branch
+
+Permite crear una nueva rama a partir de donde apunta **HEAD**.
+
+## git checkout
+
+Permite mover el HEAD a la rama que voy a utilizar, y desde ahi hacer los commits necesarios.
+
+- `git checkout -b <nombre_rama>`: realiza en un mismo paso `git branch` y `git checkout`.
+
