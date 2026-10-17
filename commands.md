@@ -105,3 +105,18 @@ Permite fusionar el trabajo de ramas independientes.
 - `git merge <nombre_rama>`: realiza un merge Fast-Forward, para el caso que no hay commits después de la creación de la nueva rama.
 - `git merge --no-ff <nombre_rama>`: realiza un merge commit, combinando los commits en un unico commit de confimación.
 
+## git pull
+Combina una "bajada" del repositorio remoto y un merge hacia el repositorio local.\
+Se recomienda realizarlo antes de comenzar cualquier trabajo y antes de realizar el commando add-commit al final de una modificación.
+
+**Uso**
+`git pull`
+
+## git fetch
+Recupera nuevos objetos y referencias de otro repositorio.\
+Actualiza toda la información de su rama de seguimiento (tracking).\
+**Personalmente no me atrae.**
+
+**Opciones**
+`git fetch`: Para mostrar donde esta el tracking branch en el remoto.
+`git fetch <repositorio>`: Es para actualizar el tracking branch en el repositorio local. No actualiza nada.
