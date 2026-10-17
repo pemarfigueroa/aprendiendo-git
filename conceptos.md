@@ -57,3 +57,7 @@ En este caso se muestra las dos ramas que existieron, por lo que el commit gener
 Esto sucede cuando se elimina una rama secundaria que contenía commits, estos quedan en el repositorio pero sin etiquetas de marca.\
 Cada cierto tiempo Git realiza una limpieza de estos commits.
 
+## Merge Conflicts
+- **ours**: Es el commit en la punta de la rama actual.
+- **theirs**: Es el commit en la punta de la rama que se requiere unir.
+- **merge base**: Es el commit en el ancestro común de ambas ramas.
