@@ -61,3 +61,11 @@ Cada cierto tiempo Git realiza una limpieza de estos commits.
 - **ours**: Es el commit en la punta de la rama actual.
 - **theirs**: Es el commit en la punta de la rama que se requiere unir.
 - **merge base**: Es el commit en el ancestro común de ambas ramas.
+
+## Rebase
+Reaplica los commits propios de una rama a la punta de otra base.\
+Modifica la historia de los commits que fueron trasladados.
+
+- **Regular Rebase**: Hace lo que se explicó de rebase.
+- **Interactive Rebase**: Entrega la oportunidad de editar los commits que se realizará el rebase
+
