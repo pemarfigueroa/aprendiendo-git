@@ -118,5 +118,5 @@ Actualiza toda la información de su rama de seguimiento (tracking).\
 **Personalmente no me atrae.**
 
 **Opciones**
-`git fetch`: Para mostrar donde esta el tracking branch en el remoto.\
-`git fetch <repositorio>`: Es para actualizar el tracking branch en el repositorio local. No actualiza nada.
+- `git fetch`: Para mostrar donde esta el tracking branch en el remoto.\
+- `git fetch <repositorio>`: Es para actualizar el tracking branch en el repositorio local. No actualiza nada.
